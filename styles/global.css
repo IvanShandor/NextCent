@@ -1,0 +1,21 @@
+
+:root{
+   --nentral-color: #263238;
+   --secondary-color: #263238;
+   --primary-color: #28CB8B;
+   --info-color: #2194f3;
+
+}
+
+
+body {
+   padding: 0;
+   margin: 0;
+   color: var(--nentral-color);
+   font-size: 16px;
+}
+
+a {
+   text-decoration: none;
+   color: var(--nentral-color);
+}
