@@ -1,7 +1,10 @@
+
+/* HEADER */
+/*_________________________________________*/
 .header{
       display: flex;
       margin: 0 300px;
-      padding: 12px 30px;
+      padding: 17px 38px 0 38px;
       justify-content: space-between;
       align-items: center;
 }
@@ -9,14 +12,14 @@
 
 .nav{
       display: flex;
-      gap: 54px;
+      gap: 53px;
 }
 
 .nav a{
       font-size: 16px;
-      color: var(--nentral-color);
+      color: var(--neutral-color);
       text-decoration: none;
-      font-family: Regular, sans-serif;
+      font-family: Inter, sans-serif;
       font-weight: 400;
 }
 
@@ -37,19 +40,85 @@
 
 .header-btn{
       margin-right: 13px;
+      
 }
 
 .btn-primary{
-   color: #28CB8B;
+   color: var(--color-primary);
    margin-right: 8px;
    font-size: 16px;
-   background-color: white;
+   background-color: var(--color-white);
    border: none;
 }
 
 .btn-secondary{
-   color: white;
+   color: var(--color-white);
    font-size: 14px;
-   background-color: #28CB8B;
+   background-color: var(--color-primary);
    border: none;
+}
+
+/*_________________________________________*/
+
+.main{
+      margin: 0 377px;
+}
+
+.hero{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 102px;
+}
+
+.main-title{
+      font-size: 64px;
+      font-weight: 700;
+      color: var(--neutral-color);
+      margin: 0;
+      padding: 0;
+      line-height: 1.2; 
+}
+.main-title:after{
+      content: 'from 8 years';
+      display: block;
+      color: var(--color-primary);
+}
+
+.main-description{
+      word-spacing: 2px;
+      letter-spacing: 0.1px;
+      padding-block-end: 14px;
+}
+
+.btn-registration{
+      padding: 17px 34px;
+      font-size: 16px;
+      background-color: var(--color-primary);
+      color: var(--color-white);
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+}
+
+.main-image img{
+      margin-left: 105px;
+      margin-top: 5px;
+      
+}
+
+.scroll{
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      justify-content: center;
+      margin-top: 65px;
+}
+
+.scroll-button{
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      background-color: var(--color-primary);
+      border-radius: 50%;
 }
