@@ -59,6 +59,7 @@
 }
 
 /*_________________________________________*/
+/* MAIN */
 
 .main{
       margin: 0 377px;
@@ -122,3 +123,36 @@
       background-color: var(--color-primary);
       border-radius: 50%;
 }
+/*_________________________________________*/
+
+.Our{
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 58px;
+      line-height: 1.1; 
+}
+
+.our-title{
+      font-size: 36px;
+      font-weight: 700;
+      color: var(--color-dgrey);
+      margin: 0;
+      padding: 0;
+}
+
+.our-description{
+      word-spacing: 2px;
+      letter-spacing: 0.1px;
+      text-align: center; 
+      color: var(--color-grey);
+}
+
+.our-cards{
+      display: flex;
+      gap: 133px;
+      margin-top: 25px;
+}
+/*_________________________________________*/
+
